@@ -1,0 +1,66 @@
+.contact{
+    height: 100vh;
+    width: 100%;
+    background-color: #001d3d;
+}
+.contactheading{
+    border: solid blueviolet;
+    border-width: 0px 0px 3px 0px;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 45% ;
+    margin-top: 5px;
+    background: -webkit-linear-gradient(#eee, blueviolet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.basic, .contactdetail{
+    color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    font-size: 15px;
+}
+.basic td, .contactdetail td{
+    border-collapse: collapse;
+    border: 2px solid white;
+    width: 50%;
+    height: 50px;
+}
+.basic table{
+    position: absolute;
+    margin: 60px;
+    width: 90%;
+}
+.contactdetail table{
+    position: absolute;
+    margin: 400px 60px 60px 60px;
+    width: 90%;
+}
+.contactdetailheading{
+    border: solid blueviolet;
+    border-width: 0px 0px 3px 0px;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 45% ;
+    margin-top: 350px; 
+    background: -webkit-linear-gradient(#eee, blueviolet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 480px) {
+    .contact{
+        margin-left: -40px;
+    }
+    .contactheading{
+        margin-left: 42%;
+        font-size: 20px;
+    }
+    .contactdetailheading{
+        margin-left: 42%;
+        font-size: 20px;
+    }
+}

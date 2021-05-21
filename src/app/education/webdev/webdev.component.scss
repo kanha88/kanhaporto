@@ -1,0 +1,83 @@
+.webdevname {
+  border: solid blueviolet;
+  border-width: 0px 0px 3px 0px;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  margin-left: 42%;
+  margin-top: -40px;
+}
+
+.webdev {
+  color: whitesmoke;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  margin: 50px 150px;
+}
+.webdev td {
+  border: 2px solid whitesmoke;
+  border-collapse: collapse;
+  height: 50px;
+  width: 25%;
+}
+.webdev table {
+  width: 100%;
+  margin-top: 60px;
+}
+
+.angularname {
+  border: solid blueviolet;
+  border-width: 0px 0px 3px 0px;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  margin-left: 46%;
+  margin-top: -40px;
+}
+
+.angular {
+  color: whitesmoke;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  margin: 50px 150px;
+  background-color: #001d3d;
+}
+.angular td {
+  border: 2px solid whitesmoke;
+  border-collapse: collapse;
+  height: 50px;
+  width: 25%;
+}
+.angular table {
+  width: 100%;
+  margin-top: 60px;
+}
+li {
+  list-style: none;
+  border: 2px solid white;
+  border-width: 0px 0px 2px 0px;
+  margin-left: -41px;
+}
+li:nth-child(7) {
+  border: solid;
+  border-width: 0px;
+}
+
+@media screen and (max-width: 480px) {
+  .webdevname {
+    font-size: 20px;
+    margin-left: 28%;
+  }
+  .webdev {
+    margin: 20px;
+  }
+  .angularname {
+    font-size: 20px;
+    margin-left: 40%;
+  }
+  .angular{
+      margin: 20px;
+  }
+}

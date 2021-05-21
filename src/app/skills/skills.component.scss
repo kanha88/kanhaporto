@@ -1,0 +1,62 @@
+.skill {
+  width: 100%;
+  height: 100vh;
+  background-color: #001d3d;
+}
+.skillname {
+  border: solid blueviolet;
+  border-width: 0px 0px 3px 0px;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  margin-left: 47%;
+  margin-top: -10px;
+  color: white;
+  background: -webkit-linear-gradient(#eee, blueviolet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.skill table {
+  width: 90%;
+  margin: 60px;
+  position: absolute;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+.skill td {
+  border: 2px solid whitesmoke;
+  border-collapse: collapse;
+  height: 50px;
+  width: 25%;
+}
+li {
+  list-style: none;
+  border: 2px solid white;
+  border-width: 0px 0px 2px 0px;
+  margin-left: -41px;
+}
+.bend li:nth-child(2) {
+  border: solid;
+  border-width: 0px;
+}
+.db li:nth-child(1) {
+  border: solid;
+  border-width: 0px;
+}
+li:nth-child(8) {
+  border: solid;
+  border-width: 0px;
+}
+
+@media screen and (max-width: 480px) {
+  .skill {
+    margin: -40px;
+    margin-top: 20px;
+  }
+  .skillname {
+      font-size: 20px;
+    margin-top: 20px;
+    margin-left: 54%;
+  }
+}

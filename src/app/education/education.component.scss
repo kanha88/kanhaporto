@@ -1,0 +1,95 @@
+.start {
+  background-color: #001d3d;
+  position: relative;
+  justify-content: center;
+  display: inline-flex;
+}
+
+.heading {
+  position: absolute;
+  color: blueviolet;
+  border: solid blueviolet;
+  border-width: 0px 0px 3px 0px;
+  background: -webkit-linear-gradient(#eee, blueviolet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.start {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  margin-left: 150px;
+}
+.card1,
+.card2,
+.card3,
+.card4,
+.card5 {
+  height: 80px;
+  width: 200px;
+  margin: 70px 25px 0px 20px;
+  border-radius: 20px;
+  padding-top: 25px;
+  color: black;
+  background-image: radial-gradient(white, blueviolet);
+  justify-content: center;
+  text-align: center;
+  font-family: "Itim", cursive;
+  position: relative;
+  transition: 1s;
+}
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover,
+.card5:hover {
+  border: 2px solid blueviolet;
+  cursor: pointer;
+  margin-top: 60px;
+  box-shadow: 3px 5px 5px black, 3px 5px 10px black, 3px 5px 20px whitesmoke;
+}
+
+@media screen and (max-width: 480px) {
+  .heading {
+    font-size: 15px !important;
+    position: absolute;
+    color: blueviolet;
+    border: solid blueviolet;
+    border-width: 0px 0px 3px 0px;
+    background: -webkit-linear-gradient(#eee, blueviolet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .start {
+    margin-left: 20px;
+  }
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5 {
+    height: 30px;
+    width: 50px;
+    margin: 50px 10px 0px 15px;
+    border-radius: 20px;
+    padding-top: 9px;
+    font-size: 10px !important;
+    color: black;
+    font-family: "Itim", cursive;
+    transition: 1s;
+  }
+  .card5{
+      padding-top: 4px;
+  }
+  .card1:hover,
+  .card2:hover,
+  .card3:hover,
+  .card4:hover,
+  .card5:hover {
+    border: 2px solid blueviolet;
+    cursor: pointer;
+    margin-top: 45px;
+    box-shadow: 3px 5px 5px black, 3px 5px 10px black, 3px 5px 20px whitesmoke;
+  }
+}

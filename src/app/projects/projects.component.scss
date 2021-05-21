@@ -1,0 +1,63 @@
+.projectsection {
+  margin-top: 50px !important;
+  margin: 100px 150px;
+}
+.projectheading {
+  margin-top: -60px;
+  margin-left: 35%;
+  border: solid blueviolet;
+  border-width: 0px 0px 3px 0px;
+  background: -webkit-linear-gradient(#eee, blueviolet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+}
+.projectsection td {
+  border: 2px solid whitesmoke;
+  border-collapse: collapse;
+  height: 50px;
+  width: 25%;
+  color: white;
+}
+.projectsection table {
+  width: 100%;
+  margin-top: 80px;
+}
+.para1 hr {
+  background-color: white !important;
+}
+.description,
+.techdes {
+  font-size: 20px;
+}
+li {
+  list-style: none;
+  border: 2px solid white;
+  border-width: 0px 0px 2px 0px;
+  margin-left: -41px;
+}
+li:nth-child(8) {
+  border: solid;
+  border-width: 0px;
+}
+.para1,
+.para2 {
+  text-align: left;
+  margin: 0px 100px;
+}
+
+@media screen and (max-width: 480px) {
+  .projectsection {
+    margin-top: 50px !important;
+    margin: 10px 15px;
+  }
+  .projectheading {
+    margin-left: 28%;
+    font-size: 20px;
+  }
+  .para1,
+  .para2 {
+    text-align: left;
+    margin: 0px 30px;
+  }
+}

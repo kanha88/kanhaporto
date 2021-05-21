@@ -1,0 +1,71 @@
+.outline {
+  justify-content: center;
+  height: 150px;
+  background-color: #001d3d;
+  position: relative;
+}
+.heading {
+  margin-top: 70px;
+  margin-left: 150px;
+  position: absolute;
+  color: white;
+}
+.shortcutkey {
+  display: inline-flex;
+  position: absolute;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 750px;
+  color: white;
+}
+.key {
+  margin-left: 50px;
+  margin-top: 30px;
+  transition: 1s;
+  background: -webkit-linear-gradient(#eee, blueviolet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.key:hover {
+  overflow: hidden;
+  justify-content: center;
+  margin-top: 22px;
+  cursor: pointer;
+  border: solid blueviolet;
+  border-width: 0px 0px 3px 0px;
+}
+
+// Response Program
+
+@media screen and (max-width: 480px) {
+  .heading {
+    margin-top: 70px;
+    margin-left: 40%;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+  .shortcutkey {
+    margin-left: 15px;
+  }
+  .key {
+    position: relative;
+    float: left;
+    font-size: 10px;
+    margin-left: 35px;
+    margin-top: 60px;
+    background: -webkit-linear-gradient(#eee, blueviolet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .key:hover {
+    overflow: hidden;
+    justify-content: center;
+    margin-top: 55px;
+    cursor: pointer;
+    border: solid blueviolet;
+    border-width: 0px 0px 2px 0px;
+  }
+}
